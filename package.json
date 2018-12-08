@@ -1,0 +1,25 @@
+{
+  "name": "voter",
+  "version": "1.0.0",
+  "description": "REST API for Voter",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "server": "nodemon index"
+  },
+  "keywords": [
+    "node",
+    "rest"
+  ],
+  "author": "Red Eyed Chief",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mysql": "^2.16.0",
+    "squel": "^5.12.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.7"
+  }
+}
